@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 30px;
+    
+    }
+    p{
+    text-align: justify;
+    color:rgb(12, 12, 12);
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+.promo{
+padding-top: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 60%;
+margin: auto;
+position: relative;
+z-index: 2;
+
+}
+
+
+    
+#hero{
+min-height: 100vh;
+position: relative;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: contain
+}
+
+
+.btn{ 
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255,255,0,3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0,3);
+}
